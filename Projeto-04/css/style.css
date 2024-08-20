@@ -1,0 +1,136 @@
+/*Estilos Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*Estilo Header*/
+
+header{
+    padding: 40px 4%;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 170px;
+    height: 150px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    transition: .2s
+}
+
+header a:hover{
+    color: rgb(105, 105, 105);
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline;
+    padding: 0 40px;
+}
+
+header .btn-buscar button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+header .btn-buscar button:hover{
+    box-shadow: 0px 0px 10px blueviolet;
+
+}
+
+/*Estilo Formulario*/
+section.formulario .interface h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+section.formulario .interface h2 span{
+    color: blueviolet;
+}
+
+
+section.formulario{
+    padding: 30px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, textarea{
+    width: 100%;
+    background-color: rgba(83, 80, 80, 0.459);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 15px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background: blueviolet;
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 10px blueviolet;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background: blueviolet;
+    padding: 10px 0;
+}
+
+
